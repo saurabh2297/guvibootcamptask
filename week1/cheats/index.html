@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+    <!-- lang attribute:- used to identify the language of content on page-->
+    <head>
+        <title>
+            cheatsheet explaination
+        </title>
+        <style>
+            table,td,th{
+            border:3px solid grey
+        }
+        table{
+            margin:auto;
+        }
+        td,th{
+            font-size:15px;
+            padding:10px;
+        }
+        h4{
+            color:#CE5937;
+        }
+        </style>
+    </head>
+    <body>
+        <h4>we are going to use lorem ipsum gibberish(meaning less) text in below paragraph</h4>
+        <p dir="rtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris augue neque gravida in fermentum et sollicitudin. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Massa tincidunt dui ut ornare. Pharetra pharetra massa massa ultricies mi. Amet purus gravida quis blandit turpis. Turpis massa tincidunt dui ut ornare lectus sit amet. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Quis blandit turpis cursus in. Nunc vel risus commodo viverra maecenas. Pharetra convallis posuere morbi leo urna. Quis hendrerit dolor magna eget est lorem. Etiam dignissim diam quis enim lobortis scelerisque. Sapien et ligula ullamcorper malesuada proin libero. Nunc faucibus a pellentesque sit. Erat pellentesque adipiscing commodo elit at imperdiet. Pellentesque pulvinar pellentesque habitant morbi tristique.
+        </p>
+        <table>
+            <tr>
+                <th>attribute</th>
+                <th>use</th>
+                <th>available values</th>
+            </tr>
+            <tr>
+                <td>dir</td>
+                <td> used to specify the direction of text </td>
+                <td>rtl ,ltr , auto</td>
+            </tr>
+        </table>
+        <h4>Now,we are going to use link attributes</h4>
+        <a href="https://tender-thompson-7cc584.netlify.app/" target="_blank" rel="external">click me</a>
+        <table>
+            <tr>
+                <th>attribute</th>
+                <th>use</th>
+                <th>available values</th>
+            </tr>
+            <tr>
+                <td>target</td>
+                <td> used to specify the link should open in same tab or new window </td>
+                <td>_blank,_self,_parent,_top</td>
+            </tr>
+            <tr>
+                <td>rel</td>
+                <td> used to specify the relation between current page and linked page</td>
+                <td>alternate,author,bookmark,external,help,license,next,nofollow,noprefer,noopener,prev,search,tag</td>
+            </tr>
+        </table>
+        <h4>we are going to use image attributes</h4>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdemo.plugins360.com%2F&psig=AOvVaw0YJT1bCEaWRE5skT2kN-Ob&ust=1599633415144000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiJ84L52OsCFQAAAAAdAAAAABAI" alt="demo_img" width="100" height="48" longdesc="https://demo.plugins360.com/"/>
+        <table>
+            <tr>
+                <th>attribute</th>
+                <th>use</th>
+                <th>available values</th>
+            </tr>
+            <tr>
+                <td>alt</td>
+                <td> to give alternate text if image not gets displayed </td>
+                <td>any text value</td>
+            </tr>
+            <tr>
+                <td>width,height</td>
+                <td> specify width and height</td>
+                <td>numeric values</td>
+            </tr>
+            <tr>
+                <td>longdesc</td>
+                <td> to give link to long description file</td>
+                <td>URL</td>
+            </tr>
+        </table>
+        <h4>we will be using all global attributes in the following div</h4>
+        <div id="demo" class="myclass" dir="ltr" lang="en" style="color:blue" tabindex="0" title="Tooltip" contenteditable="true" spellcheck="true" data-htmlcheat="99">
+            <table>
+                <tr>
+                    <th>attribute</th>
+                    <th>use</th>
+                    <th>available values</th>
+                </tr>
+                <tr>
+                    <td>id</td>
+                    <td> specify unique id for element </td>
+                    <td>any text value</td>
+                </tr>
+                <tr>
+                    <td>class</td>
+                    <td> specifies class name for element , can be same for multiple elements ,used to point to class in stylesheet</td>
+                    <td>any text value</td>
+                </tr>
+                <tr>
+                    <td>dir,lang</td>
+                    <td> already described</td>
+                    <td>refer 1st table</td>
+                </tr>
+                <tr>
+                    <td>style</td>
+                    <td> to apply inline css</td>
+                    <td>css properties with value</td>
+                </tr>
+                <tr>
+                    <td>tabindex</td>
+                    <td> specifies the tab order of an element means where the focus should reach on pressing tab button </td>
+                    <td> any numeric value</td>
+                </tr>
+                <tr>
+                    <td>title</td>
+                    <td> extra info about element showed as tooltip</td>
+                    <td> text value</td>
+                </tr>
+                <tr>
+                    <td>spellcheck</td>
+                    <td> specifies if the html element will be checked for errors or not</td>
+                    <td> true/false</td>
+                </tr>
+                <tr>
+                    <td> contenteditable</td>
+                    <td> to specify if the content of element will be editable or not</td>
+                    <td> true/false</td>
+                </tr>
+                <tr>
+                    <td> data-*</td>
+                    <td> used to store custom data private to the page or application. ... The attribute name should not contain any uppercase letters, and must be at least one character long after the prefix "data-"</td>
+                    <td> any string</td>
+                </tr>
+            </table>
+        </div>
+        <h2>block level elements that occupies complete line irrespective of the length of content :-</h2>
+        <p><em>h1,h2,h3,h4,h5,h6,p,img,pre,ol,ul,li,blockquote</em></p>
+        <h1>iframe</h1>
+        <iframe style="width: 100%; height: 400px; overflow: hidden; border:1px solid #000;" src="https://laughing-mcnulty-1c07a6.netlify.app/" width="100" height="100" scrolling="yes"></iframe>
+        
+        <footer style="background-color:yellow;text-align: center;">
+            <h5>Author:saurabh</h5>
+            <a href="mailto:saurabhgangwar621@gmail.com">saurabhgangwar621@gmail.com</a>
+        </footer>
+    </body>
+</html>
