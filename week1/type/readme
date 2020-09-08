@@ -1,0 +1,13 @@
+1)Use typeof in all the datatypes and check the result
+
+typeof(1)
+typeof(1.1)
+typeof("1.1")
+typeof(true)
+typeof(null)
+typeof(undefined)
+typeof([])
+typeof({})
+
+
+follow the netlify link to see the result
