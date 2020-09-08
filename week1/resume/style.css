@@ -1,0 +1,115 @@
+.nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+body{
+    background-image: url(bg.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top:40px;  
+    
+}
+.fst{
+    background-image: url(2b.jpg);
+    padding-bottom: 20px;
+    padding-top: 50px;
+    margin-top:px;
+}
+.sze{
+    width: 160px;
+    height:160px;
+    border-radius: 100px;
+}
+.col{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.nme{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:brown;
+    text-align: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.scnd{
+    background-image: url(bgs.jpg);
+    background-size:cover;
+    padding-bottom:20px;
+}
+.scnd p{
+font-family: "Times New Roman", Times, serif;
+font-size: 27px;
+letter-spacing: 1.6px;
+word-spacing: 3.8px;
+color: black;
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: small-caps;
+text-transform: capitalize;
+text-decoration: underline;
+text-shadow: 2px 2px tomato;
+}
+.ssze{
+    width: 200px;
+    height:170px;
+    border-radius: 12px;
+}
+h1{
+    text-align:center;
+    color:white;
+    background-color:#343a40;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-variant: small-caps;
+}
+.tsze{
+    width: 90px;
+    height:90px;
+}
+.thrd p{
+    font-weight: bold;
+    font-size:15px;
+    color:green;
+    font-variant:normal;
+    text-decoration: none;
+
+} 
+.thrd{
+    background-image: url(bgt.jpg);
+    background-size:cover;
+    padding-bottom:20px;
+
+}
+.fourth{
+    background-color: black;
+    padding-bottom:20px;
+}
+.fourth p{
+    color:white;
+    text-align:justify;
+    margin: 20px;
+    padding-bottom:20px;
+}
+footer{
+    background-color:white;
+    text-align:center;
+    color:blue;
+    font-weight:bold;
+    padding-bottom: 0.5px;
+}
+h4{
+    text-align:center;
+    color:blue;
+    text-decoration: underline;
+}
+h6{
+    color:white;
+    text-align:center;
+}
