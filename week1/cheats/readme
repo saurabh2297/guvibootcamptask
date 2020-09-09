@@ -3,3 +3,40 @@ used and explained on html page:-
 https://xenodochial-mcclintock-8b5644.netlify.app/
 
 source code file added
+
+
+Client request errors
+400 — Bad Request
+401 — Authorization Required
+402 — Payment Required (not used yet)
+403 — Forbidden
+404 — Not Found
+405 — Method Not Allowed
+406 — Not Acceptable (encoding)
+407 — Proxy Authentication Required
+408 — Request Timed Out
+409 — Conflicting Request
+410 — Gone
+411 — Content Length Required
+412 — Precondition Failed
+413 — Request Entity Too Long
+414 — Request URI Too Long
+415 — Unsupported Media Type.
+
+Server Errors
+500 — Internal Server Error
+501 — Not Implemented
+502 — Bad Gateway
+503 — Service Unavailable
+504 — Gateway Timeout
+505 — HTTP Version Not Supported.
+
+These are various error codes , now if we don't handle these errors they will just directly return message but using .htacess file we can specify the document to be
+redirected in case of specific error.
+ex:-
+ErrorDocument 400 /errors/bad-request.html
+ErrorDocument 401 /errors/auth-reqd.html
+ErrorDocument 403 /errors/forbid.html
+ErrorDocument 404 /errors/not-found.html
+ErrorDocument 500 /errors/server-err.html
+
