@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>OpenWeatherMap Api</title>
+<style>
+    input{
+        margin:auto;
+    }
+    footer {
+                position:fixed;
+                left:0px;
+                bottom:-7px;
+                height:30px;
+                width:100%;
+    }
+    p{
+                color: yellow;
+                text-align:center;
+                background-color:black;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar  fixed-top navbar-dark bg-dark">
+        <h4 style="color:white;margin-left:30%;">Check Weather (Using Open Weather Api)</h4>
+    </nav>
+
+    <div class="container" style="width:70%;margin-top: 20%">
+        <div class="input row">
+            <input class="form-control col-8" type="text" placeholder="enter city" id="input"/>
+            <input type="button" class="btn btn-success col-3" value="Submit" id="submit"/>
+        </div>
+
+        <br>
+        <h1 id="name"></h1>
+        <br>
+        <h3 id="temp"></h3>
+        <br>
+        <h3 id="desc"></h3>
+
+    <footer>
+        <p>Designed by: Saurabh Gangwar ,
+            <a href="mailto:saurabhgangwar621@gmail.com" target="_blank">
+                Mail at: saurabhgangwar621@gmail.com</a>
+        </p>      
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
