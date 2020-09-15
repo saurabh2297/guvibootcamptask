@@ -1,0 +1,11 @@
+https://api.domainsdb.info/v1/domains/search?domain=facebook&zone=com
+
+resolved CORS error using a proxy server
+https://cors-anywhere.herokuapp.com
+
+The cors-anywhere server is a proxy that adds CORS headers to a request.
+A proxy acts as an intermediary between a client and server.
+In this case, the cors-anywhere proxy server operates in between the frontend web app making the request,
+and the server that responds with data. 
+
+it adds the more open Access-Control-Allow-Origin: * header to the response.
