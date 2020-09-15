@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OpenAPI</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+        var request = new XMLHttpRequest()
+        request.open('GET', 'https://dog.ceo/api/breeds/list/all', true)
+        request.onerror = function () {
+        console.log("Internet is down");
+            };
+        request.send();
+        request.onload = function() {
+        var data = JSON.parse(this.response);
+        console.log(data)
+        var x = JSON.stringify(data)
+        document.getElementById('root').innerHTML = x;}
+    </script>
+  </body>
+</html>
