@@ -3,6 +3,6 @@ https://dog.ceo/api/breeds/list/all
 
 fetchind dog breed list using xmlHTTP request 
 
-also did the xmlHTTP request handling task in same.
+also did the xmlHTTP request error handling task in same.
 
 
