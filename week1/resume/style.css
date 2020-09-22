@@ -3,19 +3,20 @@
     letter-spacing: 1px;
     font-weight: bold;
 }
+
+
 body{
     background-image: url(bg.jpg);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
-    padding-top:40px;  
+
     
 }
 .fst{
     background-image: url(2b.jpg);
     padding-bottom: 20px;
     padding-top: 50px;
-    margin-top:px;
 }
 .sze{
     width: 160px;
