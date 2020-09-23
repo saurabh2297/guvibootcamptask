@@ -1,0 +1,160 @@
+.main{
+    padding-left:10%;
+    padding-right: 10%;
+    z-index: -1;
+}
+
+.dp{
+    width:150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px gold dotted;
+    border-radius: 80px;
+}
+
+h1{
+    position: absolute;
+    background-color: goldenrod;
+    color: black;
+    width:25%;
+    margin-left: 27%;
+    margin-top: 13%;
+    padding:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid goldenrod;
+    border-radius: 8px;
+    z-index: 0;
+}
+
+.c1{
+    background-color: gray;
+    padding-top: 4%;
+}
+
+.c2{
+    background-color:gainsboro;
+    padding-top:3%;
+}
+
+.c3{
+    background-color: gray;
+    padding-top:3%;
+}
+
+.sub{
+    background-color:white;
+    display: block;
+    margin-left: 15%;
+}
+
+.t1,.t2{
+    display: inline-block;
+}
+.t2{
+    float: right;
+}
+
+
+
+table,tr,td{
+    border:none;
+    border-collapse: collapse;
+}
+
+.t1,.t2{
+    padding:3%;
+}
+.t1{
+    border-right: 1px solid gray;
+}
+
+.material-icons{
+    border-radius: 100px;
+    font-size: 40px;
+    color:goldenrod;
+    background-color: black;
+    border:2px gold dotted;
+    margin:2%;
+}
+
+.subhead{
+    padding-top:7px;
+    display: inline;
+    padding: 2%;
+    margin-left:1%;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.ico{
+    width:4%;
+    padding-top: 7px;
+}
+
+.content{
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+table{
+    width:50%;
+}
+
+.subhead2{
+    padding-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slider{
+    width:50%;
+    float: right;
+    line-height: 120%;
+}
+.skill_name{
+    font-weight: 700;
+    line-height: 130%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bar {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,244,0,1) 0%, rgba(255,250,133,1) 100%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .bar:hover {
+    opacity: 1;
+  }
+  
+  .bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 12px;
+    border-radius: 90%;
+    border:1px solid black;
+    background: white;
+    cursor: pointer;
+  }
+
+  .dt {
+      float:right;
+      font-weight: normal;
+  }
+
+  .subspan{
+      font-weight: normal;
+  }
