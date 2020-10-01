@@ -1,0 +1,138 @@
+.container{
+    padding-top: 2%;
+}
+
+.news{
+    padding:2%;
+}
+
+.head_img{
+    width:100%;
+    height: 80%;
+    margin-bottom: -20%;
+}
+.n1{
+    width: 100%;
+    height:18vw;
+    float: left;
+}
+.n4{
+    width:35%;
+    height:16vw;
+    float:left;
+    margin-right: 2%;
+}
+.card{
+    width:35%;
+    height:45%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.bord_bottom{
+    border-bottom:  2px solid gray;
+    }
+.bord_top{
+    border-top:  2px solid gray;
+    }
+.box{
+    border: 2px solid grey;
+    margin-top: 5%;
+    }
+
+h1,section{
+    text-align: center;
+}
+
+h1{
+    font-size: 5vw;
+}
+h2{
+    font-size: 3vw;
+}
+h3{
+    font-size: 2.8vw;
+}
+h5{
+    font-size:2vw;
+}
+.small{
+    font-size: 1.5vw;
+}
+
+.crd{
+    font-size:1vw;
+    text-align: justify;
+}
+
+section{  
+    font-size: 2vw;
+}
+
+.sub1,.sub2,.sub3{
+    font-size: 0.8vw;
+}
+.sub1,.subhead1{
+    float: left;
+}
+.sub3,.subhead2{
+    float:right;
+}
+.foot{
+    color: honeydew;
+    font-weight: bold;
+}
+.footer{
+    padding:0.5%;
+    margin-top:2%;
+}
+.padtop{
+    padding-top:2%;
+}
+.padbottom{
+    padding-bottom: 2%;
+}
+.head2{
+    margin-left: 50%;
+}
+.p2{
+    letter-spacing: 0.5vw;
+    word-spacing: 5vw;
+    padding-left: 1%;
+}
+.bottom-right {
+    position: absolute;
+    width:25%;
+    bottom: 1vw;
+    right: 4vw;
+    color:white;
+  }
+.maroon{
+    background-color:maroon;
+    color:white;
+    padding:1%;
+    display: block;
+    font-size:0.8vw;
+    width:22%;
+    z-index: 0;
+    position: relative;
+}
+.collide{
+    margin-top: -2%;   
+}
+.red{
+    color:maroon;
+    text-align: center;
+}
+.bi{
+    font-weight: bold;
+    font-style: italic;
+}
+.p3img{
+    height:30vw;
+}
+.p3img2{
+    width: 100%;
+    height:18vw;
+}
