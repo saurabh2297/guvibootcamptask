@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="scripts.js"></script>
+        <style>
+            body{
+                background-image: url(bg.jpg);
+                }
+            p{
+                text-align:center;
+                background-color:white;
+            }
+            footer {
+                position:fixed;
+                left:0px;
+                bottom:-7px;
+                height:30px;
+                width:100%;
+                    }
+            .container{
+                padding:10%;
+            }
+            
+        </style>
+        <link rel="icon" type="image/png" href="https://img.icons8.com/dusk/64/000000/calculator.png"/>
+        <title>Simple Calculator</title>
+      </head>
+      <body>
+        
+        <nav class="navbar  navbar-toggleable-xl  navbar-inverse  navbar-dark bg-dark">
+            <h2 style="color:white;margin:auto;">Simple calculator</h2>
+        </nav>
+        <div class="container">
+            <table class="table  table-dark">
+                <thead>
+                  <tr>
+                    <td colspan="3"><input class="form-control" type="text" id="result"/></td> 
+                    <td><input type="button" class="btn btn-danger btn-block" value="C" onclick="clr()"/> </td>
+                    <!--to clear the display box clr() function-->
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <!-- function dis to display value -->
+                        <td><input type="button" class="btn btn-primary btn-block" value="1" onclick="dis('1')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="2" onclick="dis('2')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="3" onclick="dis('3')"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" value="/" onclick="dis('/')"/> </td> 
+                     </tr> 
+                     <tr> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="4" onclick="dis('4')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="5" onclick="dis('5')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="6" onclick="dis('6')"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" value="-" onclick="dis('-')"/> </td> 
+                     </tr> 
+                     <tr> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="7" onclick="dis('7')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="8" onclick="dis('8')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="9" onclick="dis('9')"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" value="+" onclick="dis('+')"/> </td> 
+                     </tr> 
+                     <tr> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="." onclick="dis('.')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" value="0" onclick="dis('0')"/> </td> 
+                        <!-- function solve to evaluate value -->
+                        <td><input type="button" class="btn btn-success btn-block" value="=" onclick="solve()"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" value="*" onclick="dis('*')"/> </td> 
+                     </tr> 
+                </tbody>
+            </table>
+          
+        </div>
+        <footer>
+            <p>Designed by: Saurabh Gangwar ,
+                <a href="mailto:saurabhgangwar621@gmail.com" target="_blank">
+                    Mail at: saurabhgangwar621@gmail.com</a>
+            </p>      
+        </footer>
+    </body> 
+</html>
