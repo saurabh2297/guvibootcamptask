@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="scripts.js"></script>
+        
         <style>
             body{
                 background-image: url(bg.jpg);
@@ -31,7 +31,7 @@
         <title>Simple Calculator</title>
       </head>
       <body>
-        
+        <script defer src="scripts.js"></script>
         <nav class="navbar  navbar-toggleable-xl  navbar-inverse  navbar-dark bg-dark">
             <h2 style="color:white;margin:auto;">Simple calculator</h2>
         </nav>
@@ -40,36 +40,36 @@
                 <thead>
                   <tr>
                     <td colspan="3"><input class="form-control" type="text" id="result"/></td> 
-                    <td><input type="button" class="btn btn-danger btn-block" value="C" onclick="clr()"/> </td>
+                    <td><input type="button" class="btn btn-danger btn-block" id= "c" value="C" onclick="clr()"/> </td>
                     <!--to clear the display box clr() function-->
                   </tr>
                 </thead>
                 <tbody>
                     <tr> 
                         <!-- function dis to display value -->
-                        <td><input type="button" class="btn btn-primary btn-block" value="1" onclick="dis('1')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="2" onclick="dis('2')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="3" onclick="dis('3')"/> </td> 
-                        <td><input type="button" class="btn btn-warning btn-block" value="/" onclick="dis('/')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="1" value="1" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="2" value="2" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="3" value="3" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" id="/" value="/" onclick="dis(value)"/> </td> 
                      </tr> 
                      <tr> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="4" onclick="dis('4')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="5" onclick="dis('5')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="6" onclick="dis('6')"/> </td> 
-                        <td><input type="button" class="btn btn-warning btn-block" value="-" onclick="dis('-')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="4" value="4" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="5" value="5" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="6" value="6" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" id="-" value="-" onclick="dis(value)"/> </td> 
                      </tr> 
                      <tr> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="7" onclick="dis('7')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="8" onclick="dis('8')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="9" onclick="dis('9')"/> </td> 
-                        <td><input type="button" class="btn btn-warning btn-block" value="+" onclick="dis('+')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="7" value="7" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="8" value="8" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="9" value="9" onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" id="+" value="+" onclick="dis(value)"/> </td> 
                      </tr> 
                      <tr> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="." onclick="dis('.')"/> </td> 
-                        <td><input type="button" class="btn btn-primary btn-block" value="0" onclick="dis('0')"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="." value="." onclick="dis(value)"/> </td> 
+                        <td><input type="button" class="btn btn-primary btn-block" id="0" value="0" onclick="dis(value)"/> </td> 
                         <!-- function solve to evaluate value -->
-                        <td><input type="button" class="btn btn-success btn-block" value="=" onclick="solve()"/> </td> 
-                        <td><input type="button" class="btn btn-warning btn-block" value="*" onclick="dis('*')"/> </td> 
+                        <td><input type="button" class="btn btn-success btn-block" id="Enter" value="=" onclick="solve()"/> </td> 
+                        <td><input type="button" class="btn btn-warning btn-block" id="*" value="*" onclick="dis(value)"/> </td> 
                      </tr> 
                 </tbody>
             </table>
