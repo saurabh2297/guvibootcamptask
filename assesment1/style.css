@@ -10,7 +10,7 @@ input[type=text],input[type=email],input[type=number], select{
   }
   
 .error{
-    border:solid 1px red;
+    background-color:orange;
 }
 
 label {
