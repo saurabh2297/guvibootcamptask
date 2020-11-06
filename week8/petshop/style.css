@@ -1,0 +1,36 @@
+body{
+    background-image: url(bodybg.jpg);
+    background-position: top;
+}
+
+.container{
+    padding:0.7%;
+    background-image:url(bgimg.webp) ;
+}
+.btn{
+    margin:0.5%;
+    display: block;
+}
+ 
+h1{
+    color:brown;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 35%;
+    font-size: 4vw;
+}
+
+
+#content2{
+    margin-top: 1%;
+    padding: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5% ;
+}
+
+#content1{
+ margin-left: 0.5%;
+ margin-right: 0.5%;   
+}
+
+
