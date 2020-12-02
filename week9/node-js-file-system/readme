@@ -2,4 +2,8 @@ verified with postman
 
 https://calm-dusk-01724.herokuapp.com/files
 
+postman link to import api along with documentation of the api:-
 https://www.getpostman.com/collections/5a5a725bc74a7e42dc3c
+
+this api makes a POST request to create a file with file name as current date and time and along with its content also as current date and time.
+also makes a GET request to fetch the list of all the created file names.
