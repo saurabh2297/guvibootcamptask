@@ -3,5 +3,7 @@ API to create students , mentors
 assigning students to mentor and vice versa
 check the students assigned to mentor
 
+Following REST API conevntions
+
 verified with postman:-
 https://www.getpostman.com/collections/8b464e6a2b697b00bab7
